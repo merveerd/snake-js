@@ -1,0 +1,116 @@
+.container {
+    width: 900px;
+    height: 600px;
+    border: solid rgb(119, 119, 236);;
+    border-width: 3px;
+    position: relative;
+    overflow: hidden;
+   
+}
+
+.game-start-container{
+    height: 100px;
+    width: 300px;
+    font-size: 20px;
+    color: black;
+    background-color: rgb(119, 119, 236);
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 26%;
+    z-index: 2;
+    position: absolute;
+
+}
+
+.user-name{
+    
+    background-color: tan;
+    color: black;
+    height: 30px;
+    display: block;
+    margin: auto;
+    border: none;
+    margin-top: 5px;
+    text-align: center;
+}
+::placeholder {
+    color: black;
+}
+
+.snake {
+    width: 30px;
+    height: 30px;
+    background-color: purple;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    left: 450px;
+    top: 300px;
+    border: solid tan 1px;
+}
+
+
+.foodshape {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(119, 119, 236);
+    position: absolute;
+    border-radius: 5px;
+
+}
+
+.warning,
+.top-scores {
+    width: 300px;
+    font-size: 30px;
+    color: black;
+    background-color: purple;
+    text-align: center;
+    margin: auto;
+    margin-top: 26%;
+    z-index: 2;
+    position: relative;
+    display: none;
+    border-radius: 5px;
+}
+.top-scores {
+    margin-top: 0;
+    color: tan
+
+}
+
+.game-button {
+    background-color: tan;
+    color: black;
+    height: 30px;
+    display: block;
+    margin: auto;
+    border: solid 1px black;
+    margin-top: 5px;
+    z-index: 2;
+}
+
+.game-button:hover {
+cursor: pointer;
+}
+
+.scoretable {
+    width: 180px;
+    height: 40px;
+    color: black;
+    background-color: rgb(119, 119, 236);
+    margin-left: 726px;
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.best-score {
+    width: 180px; /*how to align the tex to the center vertical align doesnt work */
+    height: 40px;
+    color: black;
+    background-color: tan;
+    float: left;
+    font-size: 24px;
+}
